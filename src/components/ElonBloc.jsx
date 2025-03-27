@@ -1,6 +1,6 @@
 import React from "react";
 import "./ElonBloc.css"; // Importa los estilos
-import elonImage from "../assets/elon.jpg"; // Asegúrate de tener una imagen en assets
+import elonImage from "../assets/elon.png"; 
 
 const ElonBloc = () => {
   return (
@@ -20,8 +20,8 @@ const ElonBloc = () => {
           <li>🏗️ Creador de The Boring Company</li>
         </ul>
         <div className="buttons">
-          <a href="https://twitter.com/elonmusk" target="_blank" rel="noopener noreferrer" className="btn btn-twitter">
-            Seguir en Twitter
+          <a href="https://x.com/elonmusk" target="_blank" rel="noopener noreferrer" className="btn btn-twitter">
+            Seguir en X
           </a>
           <a href="https://www.spacex.com/" target="_blank" rel="noopener noreferrer" className="btn btn-spacex">
             Visitar SpaceX
